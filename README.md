@@ -38,10 +38,6 @@ pnpm dev
 Open [http://localhost:3001](http://localhost:3001) in your browser to see the web application.
 Your app will connect to the Convex cloud backend automatically.
 
-
-
-
-
 ## Project Structure
 
 ```
@@ -60,3 +56,10 @@ balancete/
 - `pnpm dev:setup`: Setup and configure your Convex project
 - `pnpm check-types`: Check TypeScript types across all apps
 - `pnpm check`: Run Biome formatting and linting
+
+## Requirements
+
+- **Account Management** - Enable creation and management of different account types (Assets, Liabilities, Equity) with hierarchical organization (e.g., sub-accounts under main categories)
+- **Transaction Recording** - Allow users to record financial transactions with date, description, amount, and automatic posting to appropriate debit/credit accounts
+- **Balance Calculations & Reports** - Automatically calculate account balances and generate balance sheet reports showing total assets, liabilities, and equity at any point in time
+- **Transaction Validation** - Ensure all transactions follow double-entry bookkeeping principles with balanced debits and credits before allowing them to be saved
