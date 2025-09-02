@@ -26,6 +26,9 @@
     "paths": {
       "@/*": [
         "./src/*"
+      ],
+      "@balancete/backend/*": [
+        "../../packages/backend/*"
       ]
     }
   },
