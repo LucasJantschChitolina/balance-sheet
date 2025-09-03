@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "../index.css";
 import Providers from "@/components/providers";
 import Header from "@/components/header";
+import { AppSidebar } from "@/components/app-sidebar";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -31,9 +32,12 @@ export default function RootLayout({
 				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
 			>
 				<Providers>
-					<div className="grid h-svh grid-rows-[auto_1fr]">
+					<AppSidebar />
+					<div className="grid h-svh w-full grid-rows-[auto_1fr]">
 						<Header />
-						{children}
+						<div className="px-6 py-4">
+							{children}
+						</div>
 					</div>
 				</Providers>
 			</body>

@@ -44,8 +44,8 @@ export default function AccountsPage() {
 	};
 
 	return (
-		<div className="container mx-auto px-4 py-8">
-			<div className="mb-8 flex items-center justify-between">
+		<div className="container mx-auto">
+			<div className="flex items-center justify-between">
 				<div>
 					<h1 className="font-bold text-3xl">Gerenciamento de Contas</h1>
 					<p className="text-muted-foreground">
