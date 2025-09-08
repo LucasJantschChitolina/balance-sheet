@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/sidebar";
 
 import type { Route } from "next";
-import { Home, DollarSign, type LucideIcon } from "lucide-react";
+import { Home, DollarSign, Receipt, type LucideIcon } from "lucide-react";
 
 const items: { title: string; url: Route; icon: LucideIcon }[] = [
 	{
@@ -24,6 +24,11 @@ const items: { title: string; url: Route; icon: LucideIcon }[] = [
 		title: "Contas",
 		url: "/accounts",
 		icon: DollarSign,
+	},
+	{
+		title: "Lançamentos",
+		url: "/transactions",
+		icon: Receipt,
 	},
 ];
 
