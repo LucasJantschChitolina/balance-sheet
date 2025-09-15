@@ -106,7 +106,7 @@ export function TransactionForm({ open, onOpenChange, mode, transaction }: Trans
 					date: new Date().toISOString().split('T')[0],
 					description: "",
 					reference: "",
-					entries: [{ accountId: "", amount: 0, type: "debit", description: "" }],
+					entries: [{ accountId: "", amount: 0, type: "credit", description: "" }, { accountId: "", amount: 0, type: "debit", description: "" }],
 				});
 			}
 		}
@@ -242,7 +242,7 @@ export function TransactionForm({ open, onOpenChange, mode, transaction }: Trans
 							</CardHeader>
 							<CardContent className="space-y-4">
 								{fields.map((field, index) => (
-									<div key={field.id} className="border grid gap-4 grid-cols-1 p-4 rounded-lg md:grid-cols-12">
+									<div key={field.id} className="grid grid-cols-1 gap-4 border-b px-4 py-6 md:grid-cols-12">
 										<FormField
 											control={form.control}
 											name={`entries.${index}.accountId`}
@@ -344,7 +344,7 @@ export function TransactionForm({ open, onOpenChange, mode, transaction }: Trans
 
 						{/* Balance Summary */}
 						<Card>
-							<CardContent className="pt-6">
+							<CardContent>
 								<div className="flex items-center justify-between">
 									<div className="space-y-1">
 										<div className="font-medium text-sm">Resumo do Lançamento</div>
@@ -356,7 +356,7 @@ export function TransactionForm({ open, onOpenChange, mode, transaction }: Trans
 											</span></span>
 										</div>
 									</div>
-									<Badge variant={isBalanced ? "default" : "destructive"}>
+									<Badge variant={isBalanced ? "outline" : "destructive"}>
 										{isBalanced ? "Balanceado" : "Desbalanceado"}
 									</Badge>
 								</div>
