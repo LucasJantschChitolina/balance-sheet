@@ -1,0 +1,319 @@
+{
+  "period": "Agosto/2025",
+  "entries": [
+    {
+      "id": 1,
+      "description": "Venda de Mercadorias",
+      "date": "2025-08-03",
+      "debits": [
+        {
+          "account": "Clientes a Receber",
+          "amount": 10000.00,
+          "isReportingAccount": false
+        }
+      ],
+      "credits": [
+        {
+          "account": "Receita de Vendas de Mercadorias",
+          "amount": 10000.00,
+          "isReportingAccount": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Compra de Estoque a Prazo",
+      "date": "2025-08-05",
+      "debits": [
+        {
+          "account": "Estoques",
+          "amount": 6000.00,
+          "isReportingAccount": false
+        }
+      ],
+      "credits": [
+        {
+          "account": "Fornecedores",
+          "amount": 6000.00,
+          "isReportingAccount": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Despesa de Energia",
+      "date": "2025-08-07",
+      "debits": [
+        {
+          "account": "Despesa de Energia",
+          "amount": 800.00,
+          "isReportingAccount": false
+        }
+      ],
+      "credits": [
+        {
+          "account": "Caixa",
+          "amount": 800.00,
+          "isReportingAccount": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Despesa de Honorários",
+      "date": "2025-08-10",
+      "debits": [
+        {
+          "account": "Despesa de Honorários",
+          "amount": 1200.00,
+          "isReportingAccount": false
+        }
+      ],
+      "credits": [
+        {
+          "account": "Caixa",
+          "amount": 1200.00,
+          "isReportingAccount": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Despesas Bancárias",
+      "date": "2025-08-12",
+      "debits": [
+        {
+          "account": "Despesa Bancária",
+          "amount": 150.00,
+          "isReportingAccount": false
+        }
+      ],
+      "credits": [
+        {
+          "account": "Caixa",
+          "amount": 150.00,
+          "isReportingAccount": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "description": "Despesa com Sistemas",
+      "date": "2025-08-14",
+      "debits": [
+        {
+          "account": "Despesa de Sistemas",
+          "amount": 500.00,
+          "isReportingAccount": false
+        }
+      ],
+      "credits": [
+        {
+          "account": "Caixa",
+          "amount": 500.00,
+          "isReportingAccount": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "description": "Despesa de Combustível",
+      "date": "2025-08-15",
+      "debits": [
+        {
+          "account": "Despesa de Combustível",
+          "amount": 600.00,
+          "isReportingAccount": false
+        }
+      ],
+      "credits": [
+        {
+          "account": "Caixa",
+          "amount": 600.00,
+          "isReportingAccount": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "description": "Depreciação",
+      "date": "2025-08-20",
+      "debits": [
+        {
+          "account": "Despesa de Depreciação",
+          "amount": 1000.00,
+          "isReportingAccount": false
+        }
+      ],
+      "credits": [
+        {
+          "account": "Depreciação Acumulada",
+          "amount": 1000.00,
+          "isReportingAccount": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "description": "Folha de Pagamento João",
+      "date": "2025-08-25",
+      "debits": [
+        {
+          "account": "Despesa de Salário João",
+          "amount": 5000.00,
+          "isReportingAccount": true
+        }
+      ],
+      "credits": [
+        {
+          "account": "Salários a Pagar",
+          "amount": 4500.00,
+          "isReportingAccount": false
+        },
+        {
+          "account": "INSS a Recolher",
+          "amount": 500.00,
+          "isReportingAccount": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "description": "Folha de Pagamento Maria",
+      "date": "2025-08-25",
+      "debits": [
+        {
+          "account": "Despesa de Salário Maria",
+          "amount": 4000.00,
+          "isReportingAccount": true
+        }
+      ],
+      "credits": [
+        {
+          "account": "Salários a Pagar",
+          "amount": 3600.00,
+          "isReportingAccount": false
+        },
+        {
+          "account": "INSS a Recolher",
+          "amount": 400.00,
+          "isReportingAccount": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "description": "Provisão de Décimo Terceiro",
+      "date": "2025-08-28",
+      "debits": [
+        {
+          "account": "Despesa Provisão 13º",
+          "amount": 1500.00,
+          "isReportingAccount": true
+        }
+      ],
+      "credits": [
+        {
+          "account": "Provisão 13º Salário",
+          "amount": 1500.00,
+          "isReportingAccount": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "description": "Provisão de Férias",
+      "date": "2025-08-28",
+      "debits": [
+        {
+          "account": "Despesa Provisão Férias",
+          "amount": 1200.00,
+          "isReportingAccount": true
+        }
+      ],
+      "credits": [
+        {
+          "account": "Provisão Férias",
+          "amount": 1200.00,
+          "isReportingAccount": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "description": "FGTS sobre Folha",
+      "date": "2025-08-28",
+      "debits": [
+        {
+          "account": "Despesa FGTS",
+          "amount": 880.00,
+          "isReportingAccount": true
+        }
+      ],
+      "credits": [
+        {
+          "account": "FGTS a Recolher",
+          "amount": 880.00,
+          "isReportingAccount": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "description": "ICMS sobre Vendas",
+      "date": "2025-08-30",
+      "debits": [
+        {
+          "account": "ICMS sobre Vendas",
+          "amount": 1200.00,
+          "isReportingAccount": true
+        }
+      ],
+      "credits": [
+        {
+          "account": "ICMS a Recolher",
+          "amount": 1200.00,
+          "isReportingAccount": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "description": "PIS sobre Vendas",
+      "date": "2025-08-30",
+      "debits": [
+        {
+          "account": "PIS sobre Vendas",
+          "amount": 200.00,
+          "isReportingAccount": true
+        }
+      ],
+      "credits": [
+        {
+          "account": "PIS a Recolher",
+          "amount": 200.00,
+          "isReportingAccount": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "description": "COFINS sobre Vendas",
+      "date": "2025-08-30",
+      "debits": [
+        {
+          "account": "COFINS sobre Vendas",
+          "amount": 600.00,
+          "isReportingAccount": true
+        }
+      ],
+      "credits": [
+        {
+          "account": "COFINS a Recolher",
+          "amount": 600.00,
+          "isReportingAccount": false
+        }
+      ]
+    }
+  ]
+}
